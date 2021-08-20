@@ -1,0 +1,308 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    justify-content: space-between;
+}
+
+.color__bg {
+    position: absolute;
+    width: 1920px;
+    height: 700px;
+    left: 0px;
+    top: -7px;
+    background-color: #EEEFF1;
+}
+
+.logo {
+    justify-content: space-between;
+    padding-left: 402px;
+    padding-top: 57px;
+}
+
+.navbar {
+    justify-content: space-between;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.1em;
+    
+}
+
+.navbar__link_main {
+    position: absolute;
+    width: 86px;
+    height: 16px;
+    left: 1280px;
+    top: 72px;
+    color: #34547A;
+    position: absolute;
+    width: 84px;
+    height: 12px;
+    left: 896px;
+    top: 72px;
+}
+
+.navbar__link_2{
+    position: absolute;
+    width: 100px;
+    height: 16px;
+    left: 1022px;
+    top: 72px;
+    color: #000000;
+
+}
+
+.navbar__link_3 {
+    position: absolute;
+    width: 74px;
+    height: 16px;
+    left: 1164px;
+    top: 72px;
+    color: #000000;
+
+}
+
+.navbar__link_4 {
+    position: absolute;
+    width: 86px;
+    height: 16px;
+    left: 1280px;
+    top: 72px;
+    color: #000000;
+
+}
+
+.navbar__link_5 {
+    position: absolute;
+    width: 99px;
+    height: 16px;
+    left: 1408px;
+    top: 72px;
+    color: #000000;
+
+}
+
+.navbar__link {
+    text-decoration: none;
+}
+
+.navbar__link-space {
+    margin: 10px;
+}
+.main__body {
+    background-color: #EEEFF1;
+}
+.main__body img {
+    position: absolute;
+    width: 357px;
+    height: 233.7px;
+    left: 487px;
+    top: 271px;
+}
+
+.big__words {
+    position: absolute;
+    width: 541px;
+    height: 45px;
+    left: 974px;
+    top: 250px;
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 79px;
+
+    color: #000000;
+}
+
+.intro {
+    position: absolute;
+    width: 540px;
+    height: 67px;
+    left: 975px;
+    top: 355px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+
+    color: #727272;
+}
+
+.type__me {
+    position: absolute;
+    width: 225px;
+    height: 65px;
+    left: 975px;
+    top: 482px;
+
+    background: #34547A;
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.1em;
+
+    color: #FFFFFF;
+}
+
+.about__me {
+    height: 366px;
+    background-color: white;
+}
+
+.me {
+    position: absolute;
+width: 403px;
+height: 30px;
+left: 758px;
+top: 812px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 37px;
+text-align: center;
+
+color: #000000;
+}
+
+.font {
+    position: absolute;
+width: 540px;
+height: 67px;
+left: 690px;
+top: 892px;
+
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+
+color: #727272;
+}
+
+.trophy_room {
+    width: 100%;
+    height: 250px; 
+    position: absolute;
+
+    background-color: #34547A;
+    display: flex;
+    flex-direction: row;
+    grid-gap: 49px;
+
+    left: 0px;
+    top: 1059px;
+}
+
+.project {
+    display: flex;
+    flex-direction: row;
+}
+
+.project img {
+    width: 50px;
+    /* height: 50px;
+    left: 405px;
+    top: 1159px;  */
+    margin: 100px;
+     margin-left: 408px;
+}
+
+.number_trophy {
+    margin-top: 103px;
+    margin-bottom: 128px;
+    padding-left: 0em;
+    height: 19px;
+/* left: 500px;
+top: 1162px; */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+
+    color: white;
+
+}
+
+.name_trophy {
+    position: absolute;
+    width: 71px;
+    height: 15px;
+    margin-left: 475px;
+    margin-top: 132px;
+    margin-bottom: 103px;
+
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+
+    color: #FFFFFF;
+}
+
+.skills {
+    position: relative;
+    width: 1131px;
+    height: 450px;
+    left: 405px;
+    top: 1411px;
+}
+
+.my_skills {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37px;
+
+    color: #000000;
+}
+
+.adobe {
+    padding-top: 50px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+
+color: #727272;
+}
+
+.line_1 {
+    position:absolute;
+    z-index:100;  
+    width: 349.36px;
+    height: 4px;
+}
+
+
+
+
+/*
+cd Desktop
+cd MyCard
+git init
+git clone https://github.com/SladeWillson/MyProfile.git
+
+*/
